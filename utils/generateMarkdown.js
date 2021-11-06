@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage Information](#usage-information)
-  * Contribution Guidelines](#contribution-guidelines)
+  * [Contribution Guidelines](#contribution-guidelines)
   * [Tests](#tests)
 
 
