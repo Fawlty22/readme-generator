@@ -45,6 +45,11 @@ const questions = [
             }
             },
             {
+                type: 'input',
+                name: 'link',
+                message: 'If you have one, enter the link to an installation video for your project:',
+            },
+            {
             type: 'input',
             name: 'usage',
             message: 'Please enter the usage information for your project - instructions for use, screenshots, etc.  : (Required)',
@@ -84,47 +89,45 @@ const questions = [
             }
             },
             {
+            type: 'input',
+            name: 'username',
+            message: 'What is your GitHub username? (Required)',
+            validate: testInput => {
+                if (testInput) {
+                return true;
+                } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+                }
+            }
+            },
+            {
                 type: 'input',
-                name: 'username',
-                message: 'What is your GitHub username? (Required)',
+                name: 'email',
+                message: 'What is your email address? (Required)',
                 validate: testInput => {
                     if (testInput) {
                     return true;
                     } else {
-                    console.log('Please enter your GitHub username!');
+                    console.log('Please enter your email!');
                     return false;
                     }
                 }
-                },
-                {
-                    type: 'input',
-                    name: 'email',
-                    message: 'What is your email address? (Required)',
-                    validate: testInput => {
-                        if (testInput) {
-                        return true;
-                        } else {
-                        console.log('Please enter your email!');
-                        return false;
-                        }
+            },
+            {
+                type: 'checkbox',
+                name: 'license',
+                message: 'What licenses would you like to apply to your project? (Required)',
+                choices: ['MIT', 'Apache', 'GTL'],
+                validate: licenseInput => {
+                    if (licenseInput) {
+                    return true;
+                    } else {
+                    console.log('Please select at least one license!');
+                    return false;
                     }
-                    },
-                    {
-                        type: 'checkbox',
-                        name: 'license',
-                        message: 'What licenses would you like to apply to your project? (Required)',
-                        choices: ['MIT', 'Apache', 'GTL'],
-                        validate: licenseInput => {
-                            if (licenseInput) {
-                            return true;
-                            } else {
-                            console.log('Please select at least one license!');
-                            return false;
-                            }
-                        }
-                        },
-                    
-
+                }
+            },
         ];
 
 

@@ -1,4 +1,4 @@
-# sdfgsdf
+# The Greatest README.md Creator Ever
   
 
   ## **Table of Contents**
@@ -10,16 +10,16 @@
 
 
   ## **Description**
-  dfgdfg
+  This is hands down, undeniably, undoubtedly, most certainly the greatest single greatest readme creator youve ever seen in your whole damn life I'll tell you that much for certain. 
 
 
   ## **Installation** 
-  To run this program locally, dfgdfgdf
-  You can also watch a short video on installation [here.](https://undefined)
+  To run this program locally, run 'npm i node index' in your terminal. 
+  You can also watch a short video on installation [here.](https://https//runescape.com)
 
 
   ## **Usage Information**
-  gdfg
+  This is intended to dynamically create readme files for your projects whatever they may be.
 
 
   ## **Contribution Guidelines** 
@@ -161,8 +161,8 @@ For answers to common questions about this code of conduct, see the FAQ at
     
 
   ## **Tests** 
-  dfg
+  None right now its a very simple app.
 
   ## **Questions**
-  Visit my [GitHub!](https://dfgd.github.io)
-  Or, if you'd like to contact me directly, [email me!](mailto:fg)
+  Visit my [GitHub!](https://Fawlty22.github.io)
+  Or, if you'd like to contact me directly, [email me!](mailto:htonlaxer23@gmail.com)
