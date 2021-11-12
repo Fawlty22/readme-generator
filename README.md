@@ -1,4 +1,4 @@
-# d
+# README.md Generator
   
 
   ## **Table of Contents**
@@ -10,11 +10,11 @@
 
 
   ## **Description**
-  d
+  This is the challenge for Module #9, create a README.md Generator. 
 
 
   
-### **License** 
+## **License** 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) <br>
 Copyright 2021 Matthew Keys
 
@@ -29,12 +29,12 @@ Copyright 2021 Matthew Keys
 
 
   ## **Installation** 
-  To run this program locally, d <br>
-  You can also watch a short video on installation [here.](https://d)
+  To run this program locally, run 'npm i node index.js' on your command line. <br>
+  You can also watch a short video on installation [here.](https://youtube.com)
 
 
   ## **Usage Information**
-  d
+  This is for anyone who needs a readme for their project.
 
 
   ## **Contribution Guidelines** 
@@ -176,8 +176,8 @@ For answers to common questions about this code of conduct, see the FAQ at
     
 
   ## **Tests** 
-  d
+  None yet, basic software.
 
   ## **Questions**
-  Visit my [GitHub!](https://d.github.io)
-  Or, if you'd like to contact me directly, [email me!](mailto:d)
+  Visit my [GitHub!](https://Fawlty22.github.io)
+  Or, if you'd like to contact me directly, [email me!](mailto:Htonlaxer23@gmail.com)
