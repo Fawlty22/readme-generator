@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-const axios = require('axios')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -63,19 +62,6 @@ const questions = [
                 }
             }
             },
-            // {
-            // type: 'input',
-            // name: 'contribution',
-            // message: 'What are the contribution guidelines of your project? (Required)',
-            // validate: contributionInput => {
-            //     if (contributionInput) {
-            //     return true;
-            //     } else {
-            //     console.log("Please enter your projects' contribution guidelines!");
-            //     return false;
-            //     }
-            // }
-            // },
             {
             type: 'input',
             name: 'tests',
@@ -119,7 +105,7 @@ const questions = [
                 type: 'list',
                 name: 'license',
                 message: 'What licenses would you like to apply to your project? (Required)',
-                choices: ['MIT', 'Apache-2.0', 'ISC'],
+                choices: ['MIT', 'Apache', 'ISC'],
                 validate: licenseInput => {
                     if (licenseInput) {
                         console.log(licenseInput);

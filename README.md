@@ -1,4 +1,4 @@
-# f
+# d
   
 
   ## **Table of Contents**
@@ -10,13 +10,13 @@
 
 
   ## **Description**
-  f
+  d
 
 
-
-## **License** 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-Copyright 2021 
+  
+### **License** 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) <br>
+Copyright 2021 Matthew Keys
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -29,12 +29,12 @@ Copyright 2021
 
 
   ## **Installation** 
-  To run this program locally, f
-  You can also watch a short video on installation [here.](https://f)
+  To run this program locally, d <br>
+  You can also watch a short video on installation [here.](https://d)
 
 
   ## **Usage Information**
-  f
+  d
 
 
   ## **Contribution Guidelines** 
@@ -176,8 +176,8 @@ For answers to common questions about this code of conduct, see the FAQ at
     
 
   ## **Tests** 
-  f
+  d
 
   ## **Questions**
-  Visit my [GitHub!](https://f.github.io)
-  Or, if you'd like to contact me directly, [email me!](mailto:f)
+  Visit my [GitHub!](https://d.github.io)
+  Or, if you'd like to contact me directly, [email me!](mailto:d)
