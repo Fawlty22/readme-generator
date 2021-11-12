@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const axios = require('axios')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -115,12 +116,13 @@ const questions = [
                 }
             },
             {
-                type: 'checkbox',
+                type: 'list',
                 name: 'license',
                 message: 'What licenses would you like to apply to your project? (Required)',
-                choices: ['MIT', 'Apache', 'ISC'],
+                choices: ['MIT', 'Apache-2.0', 'ISC'],
                 validate: licenseInput => {
                     if (licenseInput) {
+                        console.log(licenseInput);
                     return true;
                     } else {
                     console.log('Please select at least one license!');
@@ -147,9 +149,10 @@ return fs.writeFile(fileName, data, err => {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(data => {
-            console.log('Generate README...');
-            console.log(data);
-            writeToFile ('README.md', generateMarkdown(data));
+        console.log('Generate README...');
+        // console.log('data',data);
+        writeToFile ('README.md', generateMarkdown(data));
+        
         });
         
 }

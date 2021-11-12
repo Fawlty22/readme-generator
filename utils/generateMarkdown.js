@@ -1,50 +1,42 @@
 const contributionGuidelines = require('./covenant-guidelines.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(data) {
-  //loop through licenses array and run it through the switch
-  let markDownArray = [];
-  let licenseArray = Object.entries(data.license);
-  
-  licenseArray.forEach(element => {
-    switch (element) {
-      case 'MIT':
-        markDownArray.push(`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`);
-        break;
-      case 'Apache': 
-        markDownArray.push(`[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`);
-        break;
-      case 'ISC':
-        markDownArray.push(`[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`);
-        break;
-        default:
-          console.log(data.license[0])
-          console.log('typeof datalicense', typeof data.license)
-          console.log(licenseArray)
-        break;
-
-      }
-      
-  })
-
-  return markDownArray; 
+function renderLicenseBadge(data = '') {
+  return `[![License: MIT](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})`;
+ 
 }
 
-// TODO: Create a function that returns the license link
+// TODO: Create a function that returns the license text
 // If there is no license, return an empty string
-function renderLicenseLink(data) {
-data.license.forEach(element => {
-  
-});
+function renderLicenseText(data = '') {
+  let year = new Date
 
+  console.log('data in render', data)
+  console.log('data.license', data.license)
+  if(data.license === 'MIT'){
+    return `Copyright ${year.getFullYear()} 
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    
+    `
+  }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(data) {
-
+function renderLicenseSection(data = '') {
+return `
+## **License** 
+${renderLicenseBadge(data)}
+${renderLicenseText(data)}
+`
 
 }
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -61,8 +53,9 @@ function generateMarkdown(data) {
 
   ## **Description**
   ${data.description}
-  ${renderLicenseBadge(data)}
-  
+
+
+${renderLicenseSection(data)}
 
 
   ## **Installation** 
