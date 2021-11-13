@@ -29,12 +29,12 @@ Copyright 2021 Matthew Keys
 
 
   ## **Installation** 
-  To run this program locally, run 'npm i' on your command line. Next, run 'node index.js' and proceed to answer the questions.  <br>
-  You can also watch a short video on installation [here.](https://https://www.youtube.com/watch?v=-Wtaxfxmtmo)
+  To run this program locally, run 'npm i' on your command line. Next, run 'node index.js' and proceed to answer the questions. <br>
+  You can also watch a short video on installation [here.](https://www.youtube.com/watch?v=-Wtaxfxmtmo)
 
 
   ## **Usage Information**
-  This is meant for anyone to use. 
+    This is meant for anyone to use. 
 
 
   ## **Contribution Guidelines** 
@@ -176,7 +176,7 @@ For answers to common questions about this code of conduct, see the FAQ at
     
 
   ## **Tests** 
-  None right now, it's very basic. 
+  None right now, it's still basic. 
 
   ## **Questions**
   Visit my [GitHub!](https://Fawlty22.github.io)
