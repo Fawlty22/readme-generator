@@ -11,8 +11,6 @@ function renderLicenseBadge(data = '') {
 function renderLicenseText(data = '') {
   let year = new Date
 
-  console.log('data in render', data)
-  console.log('data.license', data.license)
   if(data.license === 'MIT'){
     return `Copyright ${year.getFullYear()} Matthew Keys
 
