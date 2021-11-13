@@ -1,4 +1,4 @@
-# README.md Generator
+# README Generator
   
 
   ## **Table of Contents**
@@ -10,7 +10,7 @@
 
 
   ## **Description**
-  This is the challenge for Module #9, create a README.md Generator. 
+  This is the Module #9 challenge, a README generator. This is meant to help quickly create README files for your projects.
 
 
   
@@ -29,12 +29,12 @@ Copyright 2021 Matthew Keys
 
 
   ## **Installation** 
-  To run this program locally, run 'npm i node index.js' on your command line. <br>
-  You can also watch a short video on installation [here.](https://youtube.com)
+  To run this program locally, run 'npm i' on your command line. Next, run 'node index.js' and proceed to answer the questions.  <br>
+  You can also watch a short video on installation [here.](https://https://www.youtube.com/watch?v=-Wtaxfxmtmo)
 
 
   ## **Usage Information**
-  This is for anyone who needs a readme for their project.
+  This is meant for anyone to use. 
 
 
   ## **Contribution Guidelines** 
@@ -176,7 +176,7 @@ For answers to common questions about this code of conduct, see the FAQ at
     
 
   ## **Tests** 
-  None yet, basic software.
+  None right now, it's very basic. 
 
   ## **Questions**
   Visit my [GitHub!](https://Fawlty22.github.io)
