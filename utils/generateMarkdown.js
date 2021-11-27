@@ -78,7 +78,7 @@ function generateMarkdown(data) {
 
   ## **Installation** 
   To run this program locally, ${data.installation} <br>
-  You can also watch a short video on installation [here.](https://${data.link})
+  You can also watch a short video on installation [here.](${data.link})
 
 
   ## **Usage Information**
